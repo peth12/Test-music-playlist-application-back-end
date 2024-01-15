@@ -5,6 +5,6 @@ search
 const searchRouter = express.Router();
 
 
-searchRouter.get("/" , search)
+searchRouter.post("/" , search)
 
 export {searchRouter}
